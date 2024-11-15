@@ -5,44 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1017fe93-9eb8-47dc-80a4-f9c576b906ba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/postgresql_42_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/managment_system.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ManagerFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManagerFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/.idea/libraries/postgresql_42_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/.idea/managment_system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sweet_waflies.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/DBConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/EmployeePanel$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/EmployeePanel$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/EmployeePanel$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/EmployeePanel$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/EmployeePanel$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/EmployeePanel$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/EmployeePanel$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/EmployeePanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/LoginFrame$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/LoginFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/ManagerFrame$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/ManagerFrame$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/ManagerFrame$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/ManagerFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/ProductPanel$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/ProductPanel$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/ProductPanel$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/ProductPanel$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/ProductPanel$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/ProductPanel$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/ProductPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/UserAuth.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/lib/postgresql-42.6.2.jar" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/CashierFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/LoginFrame$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/LoginFrame.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +49,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CashierFrame.executor": "Run",
     "Application.LoginFrame.executor": "Run",
     "Application.ManagerFrame.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -106,7 +74,21 @@
       <recent name="C:\Users\26PC\Desktop\Dreamer\sweet_waflies\lib" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CashierFrame">
+    <configuration name="CashierFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CashierFrame" />
+      <module name="sweet_waflies" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LoginFrame" />
+      <module name="sweet_waflies" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ManagerFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ManagerFrame" />
       <module name="sweet_waflies" />
@@ -116,6 +98,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CashierFrame" />
+        <item itemvalue="Application.LoginFrame" />
         <item itemvalue="Application.ManagerFrame" />
       </list>
     </recent_temporary>
@@ -136,7 +120,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731650627024</updated>
-      <workItem from="1731650628791" duration="3776000" />
+      <workItem from="1731650628791" duration="4595000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1017fe93-9eb8-47dc-80a4-f9c576b906ba" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/postgresql_42_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/managment_system.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManagerFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManagerFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/managment_system/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/managment_system/.idea/libraries/postgresql_42_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/managment_system/.idea/managment_system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sweet_waflies.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/managment_system/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/managment_system/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/managment_system/DBConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/managment_system/EmployeePanel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/managment_system/EmployeePanel$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/managment_system/EmployeePanel$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/managment_system/EmployeePanel$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/managment_system/EmployeePanel$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/managment_system/EmployeePanel$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/managment_system/EmployeePanel$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/managment_system/EmployeePanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/managment_system/LoginFrame$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/managment_system/LoginFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/managment_system/ManagerFrame$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/managment_system/ManagerFrame$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/managment_system/ManagerFrame$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/managment_system/ManagerFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/managment_system/ProductPanel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/managment_system/ProductPanel$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/managment_system/ProductPanel$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/managment_system/ProductPanel$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/managment_system/ProductPanel$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/managment_system/ProductPanel$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/managment_system/ProductPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/managment_system/UserAuth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/managment_system/lib/postgresql-42.6.2.jar" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ashurov-imomali&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ashurov-imomali/sweet_waflies.git&quot;,
+    &quot;accountId&quot;: &quot;56c50239-6ebb-49b3-b2d7-cc3f69ddd76e&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2osFxobt6MxjdXaeQtLZsGCRn0J" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.LoginFrame.executor": "Run",
+    "Application.ManagerFrame.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "19",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/26PC/Desktop/Dreamer/sweet_waflies/lib",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\26PC\Desktop\Dreamer\sweet_waflies\lib" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ManagerFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ManagerFrame" />
+      <module name="sweet_waflies" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ManagerFrame" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1017fe93-9eb8-47dc-80a4-f9c576b906ba" name="Changes" comment="" />
+      <created>1731650627024</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731650627024</updated>
+      <workItem from="1731650628791" duration="3776000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ClassNotFoundException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

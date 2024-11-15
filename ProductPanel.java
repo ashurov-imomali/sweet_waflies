@@ -1,3 +1,10 @@
+import com.google.gson.JsonArray;
+import com.google.gson.JsonObject;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import javax.swing.table.DefaultTableModel;
@@ -7,6 +14,9 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
+import java.io.FileOutputStream;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.math.BigDecimal;
 import java.sql.*;
 import java.util.List;
@@ -20,6 +30,55 @@ public class ProductPanel extends JPanel {
     private JTable productTable;
     private DefaultTableModel tableModel;
     private TableRowSorter<DefaultTableModel> rowSorter;
+    private void exportToXls() {
+        try (Workbook workbook = new HSSFWorkbook()  ) {
+            Sheet sheet = workbook.createSheet("Data");
+            Row headerRow = sheet.createRow(0);
+            for (int i = 0; i < productTable.getColumnCount(); i++) {
+                headerRow.createCell(i).setCellValue(productTable.getColumnName(i));
+            }
+            for (int i = 0; i < productTable.getRowCount(); i++) {
+                Row row = sheet.createRow(i + 1);
+                for (int j = 0; j < productTable.getColumnCount(); j++) {
+                    row.createCell(j).setCellValue(productTable.getValueAt(i, j).toString());
+                }
+            }
+
+            try (FileOutputStream fileOut = new FileOutputStream("product.xlsx")) {
+                workbook.write(fileOut);
+            }
+
+            JOptionPane.showMessageDialog(null, "Data exported to XLS successfully!");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void exportToJson() {
+        try {
+            FileWriter writer = new FileWriter("product.json");
+            JsonArray jsonArray = new JsonArray();
+
+            // Пример: Для каждой строки в таблице получаем данные и конвертируем их в JSON
+            for (int i = 0; i < productTable.getRowCount(); i++) {
+                JsonObject jsonObject = new JsonObject();
+                jsonObject.addProperty("id", (Integer) productTable.getValueAt(i, 0));
+                jsonObject.addProperty("name", (String) productTable.getValueAt(i, 1));
+                jsonObject.addProperty("description", (String) productTable.getValueAt(i, 2));
+                jsonObject.addProperty("price", (BigDecimal) productTable.getValueAt(i, 3));
+                jsonObject.addProperty("stock_quantity", (Integer) productTable.getValueAt(i, 4));
+                // добавляем другие столбцы по аналогии
+
+                jsonArray.add(jsonObject);
+            }
+
+            writer.write(jsonArray.toString());
+            writer.close();
+            JOptionPane.showMessageDialog(null, "Data exported to JSON successfully!");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
     public ProductPanel() {
         setLayout(new BorderLayout(10, 10));
@@ -29,7 +88,10 @@ public class ProductPanel extends JPanel {
         JPanel buttonPanel = new JPanel(new FlowLayout(FlowLayout.LEFT));
         JButton addButton = new JButton("Add Product");
         JButton editButton = new JButton("Edit Product");
-
+        JButton exportJsonButton = new JButton("Export to JSON");
+        JButton exportXlsButton = new JButton("Export to XLS");
+        buttonPanel.add(exportJsonButton);
+        buttonPanel.add(exportXlsButton);
         buttonPanel.add(addButton);
         buttonPanel.add(editButton);
         add(buttonPanel, BorderLayout.SOUTH);
@@ -73,7 +135,18 @@ public class ProductPanel extends JPanel {
                 openProductDialog(null);  // null - добавление нового продукта
             }
         });
-
+        exportJsonButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                exportToJson();
+            }
+        });
+        exportXlsButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                exportToXls();
+            }
+        });
         // Обработчик кнопки "Редактировать"
         editButton.addActionListener(new ActionListener() {
             @Override
@@ -178,7 +251,7 @@ public class ProductPanel extends JPanel {
                 String price = priceField.getText().trim();
                 String stockQuantity = stockQuantityField.getText().trim();
 
-                try (Connection connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/sweet_waffles", "your_user", "your_password")) {
+                try (Connection connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/sweet_waffles", "postgres", "postgres")) {
                     if (productId == null) {
                         String insertQuery = "INSERT INTO products (name, description, price, stock_quantity) VALUES (?, ?, ?, ?)";
                         try (PreparedStatement stmt = connection.prepareStatement(insertQuery)) {

@@ -74,8 +74,10 @@ public class ManagerFrame extends JFrame {
         manageCustomersButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                CardLayout cl = (CardLayout)(contentPanel.getLayout());
-                cl.show(contentPanel, "Customers");
+                contentPanel.removeAll();
+                contentPanel.add(new CustomerPanel()); // Добавляем EmployeePanel
+                contentPanel.revalidate();
+                contentPanel.repaint();
             }
         });
 

@@ -8,7 +8,7 @@ public class ManagerFrame extends JFrame {
 
     public ManagerFrame() {
         setTitle("Manager Dashboard - Sweet Waffles");
-        setSize(800, 600);
+        setSize(830, 600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         setLayout(new BorderLayout());

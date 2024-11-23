@@ -90,10 +90,12 @@ public class ProductPanel extends JPanel {
         JButton editButton = new JButton("Edit Product");
         JButton exportJsonButton = new JButton("Export to JSON");
         JButton exportXlsButton = new JButton("Export to XLS");
+        JButton exitButton = new JButton("Exit");
         buttonPanel.add(exportJsonButton);
         buttonPanel.add(exportXlsButton);
         buttonPanel.add(addButton);
         buttonPanel.add(editButton);
+        buttonPanel.add(exitButton);
         add(buttonPanel, BorderLayout.SOUTH);
 
         // Панель фильтрации
@@ -145,6 +147,12 @@ public class ProductPanel extends JPanel {
             @Override
             public void actionPerformed(ActionEvent e) {
                 exportToXls();
+            }
+        });
+        exitButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.exit(0);
             }
         });
         // Обработчик кнопки "Редактировать"

@@ -4,109 +4,108 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1017fe93-9eb8-47dc-80a4-f9c576b906ba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/postgresql_42_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/managment_system.iml" beforeDir="false" />
+    <list default="true" id="b276106c-8f8f-4411-aca9-02adca933a6a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CashierFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/CashierFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomerPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmployeePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeePanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ManagerFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManagerFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/.idea/libraries/postgresql_42_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/.idea/managment_system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sweet_waflies.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/DBConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/EmployeePanel$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/EmployeePanel$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/EmployeePanel$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/EmployeePanel$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/EmployeePanel$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/EmployeePanel$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/EmployeePanel$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/EmployeePanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/LoginFrame$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/LoginFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/ManagerFrame$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/ManagerFrame$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/ManagerFrame$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/ManagerFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/ProductPanel$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/ProductPanel$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/ProductPanel$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/ProductPanel$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/ProductPanel$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/ProductPanel$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/ProductPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/UserAuth.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/managment_system/lib/postgresql-42.6.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/poi-3.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/CashierFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/CashierFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/CashierPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/CashierPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/CashierPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/CashierPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/CustomerPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/CustomerPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/CustomerPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/CustomerPanel$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/CustomerPanel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/CustomerPanel$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/CustomerPanel$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/CustomerPanel$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/CustomerPanel$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/CustomerPanel$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/CustomerPanel$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/CustomerPanel$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/CustomerPanel$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/CustomerPanel$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/CustomerPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/CustomerPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/DBConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/DBConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/ManagerFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/ManagerFrame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/ManagerFrame$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/ManagerFrame$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/ManagerFrame$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/ManagerFrame$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/ManagerFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/ManagerFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/UserAuth.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/UserAuth.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/sweet_waflies.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/sweet_waflies.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweet_waflies.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sweet_waflies.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;ashurov-imomali&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/ashurov-imomali/sweet_waflies.git&quot;,
-    &quot;accountId&quot;: &quot;56c50239-6ebb-49b3-b2d7-cc3f69ddd76e&quot;
-  }
-}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 2
 }</component>
-  <component name="ProjectId" id="2osFxobt6MxjdXaeQtLZsGCRn0J" />
+  <component name="ProjectId" id="2ovHLKkyUdomgvszwBdQWSoFciq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.LoginFrame.executor": "Run",
-    "Application.ManagerFrame.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "19",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/26PC/Desktop/Dreamer/sweet_waflies/lib",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CashierFrame.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoginFrame.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ManagerFrame.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\26PC\Desktop\Dreamer\sweet_waflies\lib" />
-    </key>
-  </component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.CashierFrame">
+    <configuration name="CashierFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CashierFrame" />
+      <module name="sweet_waflies" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LoginFrame" />
+      <module name="sweet_waflies" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ManagerFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ManagerFrame" />
       <module name="sweet_waflies" />
@@ -116,6 +115,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CashierFrame" />
+        <item itemvalue="Application.LoginFrame" />
         <item itemvalue="Application.ManagerFrame" />
       </list>
     </recent_temporary>
@@ -131,26 +132,20 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1017fe93-9eb8-47dc-80a4-f9c576b906ba" name="Changes" comment="" />
-      <created>1731650627024</created>
+      <changelist id="b276106c-8f8f-4411-aca9-02adca933a6a" name="Changes" comment="" />
+      <created>1731743073723</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1731650627024</updated>
-      <workItem from="1731650628791" duration="2411000" />
+      <updated>1731743073723</updated>
+      <workItem from="1731743075394" duration="223000" />
+      <workItem from="1731743422229" duration="76000" />
+      <workItem from="1731922597892" duration="1267000" />
+      <workItem from="1731923898958" duration="674000" />
+      <workItem from="1732172344424" duration="3744000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.ClassNotFoundException" package="java.lang" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

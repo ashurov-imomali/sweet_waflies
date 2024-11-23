@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lib2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/production/sweet_waflies/lib/gson-2.10.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/sweet_waflies/lib/poi-3.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/sweet_waflies/lib/postgresql-42.6.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

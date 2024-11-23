@@ -136,7 +136,9 @@ public class CashierFrame extends JFrame {
                         boolean isSelected = (Boolean) productTableModel.getValueAt(i, 0);
                         if (isSelected) {
                             double price = (Double) productTableModel.getValueAt(i, 3);
-                            int quantity = (Integer) productTableModel.getValueAt(i, 4);
+                            System.out.println(productTableModel.getValueAt(i, 4));
+                            String strQuantity = productTableModel.getValueAt(i, 4).toString();
+                            int quantity = Integer.parseInt(strQuantity);
                             total += price * quantity;
                         }
                     }

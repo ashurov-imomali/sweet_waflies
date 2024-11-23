@@ -1,13 +1,73 @@
+import com.google.gson.JsonArray;
+import com.google.gson.JsonObject;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Table;
+import org.apache.poi.ss.usermodel.Workbook;
+
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
+import java.io.FileOutputStream;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.math.BigDecimal;
 import java.sql.*;
 
 public class CashierFrame extends JFrame {
     private JTable customersTable, ordersTable;
     private JTextField searchField;
     private JButton searchButton, addCustomerButton, editCustomerButton, deleteCustomerButton, addOrderButton;
+    private void exportToJson(JTable productTable) {
+        try {
+            FileWriter writer = new FileWriter("product.json");
+            JsonArray jsonArray = new JsonArray();
 
+            // Пример: Для каждой строки в таблице получаем данные и конвертируем их в JSON
+            for (int i = 0; i < productTable.getRowCount(); i++) {
+                JsonObject jsonObject = new JsonObject();
+                jsonObject.addProperty("order_id", (Integer) productTable.getValueAt(i, 0));
+                jsonObject.addProperty("customer", (String) productTable.getValueAt(i, 1));
+                jsonObject.addProperty("employee", (String) productTable.getValueAt(i, 2));
+                jsonObject.addProperty("products", (String) productTable.getValueAt(i, 3));
+                jsonObject.addProperty("total_amount", (Double) productTable.getValueAt(i, 4));
+                // добавляем другие столбцы по аналогии
+
+                jsonArray.add(jsonObject);
+            }
+
+            writer.write(jsonArray.toString());
+            writer.close();
+            JOptionPane.showMessageDialog(null, "Data exported to JSON successfully!");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void exportToXls(JTable productTable) {
+        try (Workbook workbook = new HSSFWorkbook()  ) {
+            Sheet sheet = workbook.createSheet("Data");
+            Row headerRow = sheet.createRow(0);
+            for (int i = 0; i < productTable.getColumnCount(); i++) {
+                headerRow.createCell(i).setCellValue(productTable.getColumnName(i));
+            }
+            for (int i = 0; i < productTable.getRowCount(); i++) {
+                Row row = sheet.createRow(i + 1);
+                for (int j = 0; j < productTable.getColumnCount(); j++) {
+                    row.createCell(j).setCellValue(productTable.getValueAt(i, j).toString());
+                }
+            }
+
+            try (FileOutputStream fileOut = new FileOutputStream("product.xlsx")) {
+                workbook.write(fileOut);
+            }
+
+            JOptionPane.showMessageDialog(null, "Data exported to XLS successfully!");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
     public CashierFrame() {
         setTitle("Cashier Panel - Sweet Waffles");
         setSize(1200, 700);
@@ -94,8 +154,20 @@ public class CashierFrame extends JFrame {
         panel.add(tableScrollPane, BorderLayout.CENTER);
 
         // Кнопка "Add Order"
+        JButton exportButton = new JButton("ExportToXls");
+        exportButton.addActionListener(e -> exportToXls(ordersTable));
+        JButton exportToJson = new JButton("ExportToJson");
+        exportToJson.addActionListener(e -> exportToJson(ordersTable));
         JButton addButton = new JButton("Add Order");
-        panel.add(addButton, BorderLayout.SOUTH);
+
+// Создаем панель для кнопок
+        JPanel buttonPanel = new JPanel(new FlowLayout(FlowLayout.CENTER)); // Кнопки будут расположены по центру
+        buttonPanel.add(addButton);
+        buttonPanel.add(exportButton);
+        buttonPanel.add(exportToJson);
+
+// Добавляем панель с кнопками в SOUTH
+        panel.add(buttonPanel, BorderLayout.SOUTH);
 
         addButton.addActionListener(e -> {
             try (Connection connection = getConnection()) {

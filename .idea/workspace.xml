@@ -7,6 +7,7 @@
     <list default="true" id="b276106c-8f8f-4411-aca9-02adca933a6a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CashierFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/CashierFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/CashierFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/CashierFrame$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/CashierFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/CashierFrame.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +95,7 @@
       <workItem from="1731922597892" duration="1267000" />
       <workItem from="1731923898958" duration="674000" />
       <workItem from="1732172344424" duration="3744000" />
-      <workItem from="1732330223002" duration="3856000" />
+      <workItem from="1732330223002" duration="4648000" />
     </task>
     <servers />
   </component>

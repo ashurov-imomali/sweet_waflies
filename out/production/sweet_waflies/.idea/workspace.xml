@@ -4,59 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b276106c-8f8f-4411-aca9-02adca933a6a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CashierFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/CashierFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CustomerPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ManagerFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManagerFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/poi-3.17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/.idea/libraries/lib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/CashierFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/CashierFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/CashierPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/CashierPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/CashierPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/CashierPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/CustomerPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/CustomerPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/CustomerPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/CustomerPanel$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/CustomerPanel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/CustomerPanel$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/CustomerPanel$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/CustomerPanel$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/CustomerPanel$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/CustomerPanel$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/CustomerPanel$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/CustomerPanel$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/CustomerPanel$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/CustomerPanel$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/CustomerPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/CustomerPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/DBConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/DBConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/EmployeePanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/ManagerFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/ManagerFrame$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/ManagerFrame$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/ManagerFrame$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/ManagerFrame$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/ManagerFrame$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/ManagerFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/ManagerFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/ProductPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/UserAuth.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/UserAuth.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sweet_waflies/sweet_waflies.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sweet_waflies/sweet_waflies.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sweet_waflies.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sweet_waflies.iml" afterDir="false" />
-    </list>
+    <list default="true" id="b276106c-8f8f-4411-aca9-02adca933a6a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -142,6 +90,7 @@
       <workItem from="1731922597892" duration="1267000" />
       <workItem from="1731923898958" duration="674000" />
       <workItem from="1732172344424" duration="3744000" />
+      <workItem from="1732330223002" duration="4812000" />
     </task>
     <servers />
   </component>

@@ -265,8 +265,8 @@ public class CashierFrame extends JFrame {
                             boolean isSelected = (Boolean) productTableModel.getValueAt(i, 0);
                             if (isSelected) {
                                 int productId = (Integer) productTableModel.getValueAt(i, 1);
-                                int quantity = (Integer) productTableModel.getValueAt(i, 4);
-
+                                String Squantity = productTableModel.getValueAt(i, 4).toString();
+                                int quantity = Integer.parseInt(Squantity);
                                 orderItemStatement.setInt(1, orderId);
                                 orderItemStatement.setInt(2, productId);
                                 orderItemStatement.setInt(3, quantity);

@@ -1,6 +1,7 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Map;
 
 public class LoginFrame extends JFrame {
     private JTextField usernameField;
@@ -48,12 +49,14 @@ public class LoginFrame extends JFrame {
                 String username = usernameField.getText();
                 String password = new String(passwordField.getPassword());
 
-                if (UserAuth.authenticate(username, password)) {
-                    new ManagerFrame();
-                    // Здесь можно перейти к следующему окну или функции
-                } else {
+                Map<Boolean, Integer> mp = UserAuth.authenticate(username, password);
+                if (mp.get(true) != null) {
+                    if (mp.get(true) == 1) new ManagerFrame();
+                    else if (mp.get(true) > 1 && mp.get(true) < 4) {
                     new CashierFrame();
-//                    JOptionPane.showMessageDialog(null, "Invalid Username or Password");
+                    }
+                } else {
+                    JOptionPane.showMessageDialog(null, "Invalid username or password");
                 }
             }
         });

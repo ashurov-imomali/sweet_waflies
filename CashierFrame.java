@@ -139,6 +139,7 @@ public class CashierFrame extends JFrame {
         editCustomerButton.addActionListener(e -> editCustomer());
         deleteCustomerButton.addActionListener(e -> deleteCustomer());
         searchButton.addActionListener(e -> searchCustomers());
+        setVisible(true);
 
         return panel;
     }
